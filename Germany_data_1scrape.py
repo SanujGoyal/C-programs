@@ -10,7 +10,7 @@ required_table = data_table[0]
 # print(required_table)
 
 headers = [header.text.strip()
-           for header in required_table.find_all('th', limit=9)]
+           for header in required_table.find_all('th', limit=10)]
 # print(headers)
 rows = []
 
